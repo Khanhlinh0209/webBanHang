@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Gupter", serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/* code here */
+.container {
+  background: #f0f0f0;
+  height: 100vh;
+}
+.left {
+  width: 20%;
+  background-color: #f3e6e8;
+  padding: 2rem;
+}
+
+.description {
+  height: 8vh;
+  padding: 1rem;
+}
+
+.right {
+  width: 80%;
+  border-left: 1px solid black;
+}
+
+.search {
+  width: 45rem;
+}
+
+/* card sản phẩm */
+.card-carousel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cột */
+  gap: 20px;
+  padding-top: 3rem;
+  padding-left: 12rem;
+  padding-right: 9rem;
+}
+
+.card-img {
+  height: 70%;
+  width: 100%;
+}
+
+.card-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-info {
+  height: 30%;
+  text-align: center;
+  background-color: #fbbcbc;
+}
+
+.card-title {
+  font-size: 3rem;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid black;
+}
